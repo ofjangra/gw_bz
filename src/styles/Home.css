@@ -1,0 +1,134 @@
+.upperNav{
+    position: absolute;
+    top:0;
+    right:0;
+    height: 55px;
+    width: 100%;
+    background-color: var(--main-bg);
+    color:var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#navToggle{
+    cursor: pointer;
+    
+}
+
+#logout{
+  position: absolute;
+  right: 10px;
+  top:50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 4px;
+  background:none;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: bold;
+}
+#logout:hover{
+    background-color: var(--text-secondary);
+    color: var(--main-bg);
+}
+
+.sideNav{
+    position: absolute;
+    height: 100vh;
+    background-color: var(--main-bg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 0 60px 20px;
+    color:var(--text-primary);
+    font-family: Manrope;
+}
+
+.sideNav ul{
+    list-style: none;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.sideNav li{
+    
+    margin: 10px 0;
+    width: 100%;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+/* .sideNav li:hover{ */
+    
+
+
+iframe{
+    margin-top:-108px;
+    margin-left: -50px;
+    bottom: 0;
+    height: 130vh;
+    min-height: 620px;
+    width: 110%;
+}
+
+#errorAfter{
+    color:rgb(3, 173, 224);
+    font-family: Manrope;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#errorAfter:active{
+    color:rgb(3, 173, 224);
+    font-family: Manrope;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.blogFrame{
+   position: absolute;
+   top:155px;
+   right: 0;
+   left: 50px;
+   z-index: -1;
+   padding-top: -50px;
+}
+.blogFrame iframe{
+    margin-top: -280px;
+    border: none;
+}
+
+
+.navlink{
+    text-decoration: none;
+    color:var(--text-primary);
+    width: 100%;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.navlink:active{
+    text-decoration: none;
+    color:var(--text-primary)
+}
+.navlink:hover{
+    background-color: var(--text-secondary);
+    color:var(--main-bg);
+    padding-left:8px;
+
+}
